@@ -131,6 +131,6 @@ void PlayState::checkCollisions()
     {
         std::cout << "COLLISION!\n";
         SoundManager::Instance()->playSound("lose", 0);
-//        Game::instance()->getStateMachine()->changeState(new GameOverState());
+        Game::instance()->getStateMachine()->changeState(new GameOverState());
     }
 }
