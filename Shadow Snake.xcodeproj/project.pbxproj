@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E335A351887A1A700E33368 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E335A341887A1A700E33368 /* assets */; };
+		2E335A371887A30A00E33368 /* snake.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2E335A361887A30A00E33368 /* snake.icns */; };
 		2E3F7C8718845A57008A92DD /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E3F7C8418845651008A92DD /* SoundManager.cpp */; };
 		2E3F7C8A188524D2008A92DD /* Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E3F7C88188524D2008A92DD /* Text.cpp */; };
 		2E3F7CB018853635008A92DD /* FreeMonoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3F7C9F18853538008A92DD /* FreeMonoBold.ttf */; };
@@ -68,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		2E335A341887A1A700E33368 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		2E335A361887A30A00E33368 /* snake.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = snake.icns; sourceTree = "<group>"; };
 		2E3F7C8418845651008A92DD /* SoundManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
 		2E3F7C8518845651008A92DD /* SoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		2E3F7C88188524D2008A92DD /* Text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Text.cpp; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 		2E8326A018829DAF00DEE687 = {
 			isa = PBXGroup;
 			children = (
+				2E335A361887A30A00E33368 /* snake.icns */,
 				2E8326B218829DAF00DEE687 /* Shadow Snake 2 */,
 				2E8326AB18829DAF00DEE687 /* Frameworks */,
 				2E8326AA18829DAF00DEE687 /* Products */,
@@ -480,6 +483,7 @@
 				2E8326B718829DAF00DEE687 /* InfoPlist.strings in Resources */,
 				2E8326BD18829DAF00DEE687 /* Credits.rtf in Resources */,
 				2E335A351887A1A700E33368 /* assets in Resources */,
+				2E335A371887A30A00E33368 /* snake.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
