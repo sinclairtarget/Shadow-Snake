@@ -7,26 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E335A351887A1A700E33368 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 2E335A341887A1A700E33368 /* assets */; };
 		2E3F7C8718845A57008A92DD /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E3F7C8418845651008A92DD /* SoundManager.cpp */; };
 		2E3F7C8A188524D2008A92DD /* Text.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E3F7C88188524D2008A92DD /* Text.cpp */; };
-		2E3F7C8D188531C9008A92DD /* snake.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2E3F7C8C188531C8008A92DD /* snake.icns */; };
 		2E3F7CB018853635008A92DD /* FreeMonoBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3F7C9F18853538008A92DD /* FreeMonoBold.ttf */; };
-		2E3F7D36188566B4008A92DD /* beep.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C8F18853538008A92DD /* beep.wav */; };
-		2E3F7D37188566B4008A92DD /* hero.ogg in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9018853538008A92DD /* hero.ogg */; };
-		2E3F7D38188566B4008A92DD /* longbeep.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9118853538008A92DD /* longbeep.wav */; };
-		2E3F7D39188566B4008A92DD /* lose.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9218853538008A92DD /* lose.wav */; };
-		2E3F7D3A188566B4008A92DD /* menu button.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9318853538008A92DD /* menu button.png */; };
-		2E3F7D3B188566B4008A92DD /* play button.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9418853538008A92DD /* play button.png */; };
-		2E3F7D3C188566B4008A92DD /* play.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9518853538008A92DD /* play.png */; };
-		2E3F7D3D188566B4008A92DD /* quit button.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9618853538008A92DD /* quit button.png */; };
-		2E3F7D3E188566B4008A92DD /* replay button.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9718853538008A92DD /* replay button.png */; };
-		2E3F7D3F188566B4008A92DD /* replay.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9818853538008A92DD /* replay.png */; };
-		2E3F7D40188566B4008A92DD /* score anim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9918853538008A92DD /* score anim.png */; };
-		2E3F7D41188566B4008A92DD /* shadow.wav in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9A18853538008A92DD /* shadow.wav */; };
-		2E3F7D42188566B4008A92DD /* snake.icns in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9B18853538008A92DD /* snake.icns */; };
-		2E3F7D43188566B4008A92DD /* squares.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9C18853538008A92DD /* squares.png */; };
-		2E3F7D44188566B4008A92DD /* title anim.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9D18853538008A92DD /* title anim.png */; };
-		2E3F7D45188566B4008A92DD /* title.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E3F7C9E18853538008A92DD /* title.png */; };
 		2E3F7D8918857C4E008A92DD /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3F7D8518857C4E008A92DD /* SDL2_image.framework */; };
 		2E3F7D8A18857C4E008A92DD /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3F7D8618857C4E008A92DD /* SDL2_mixer.framework */; };
 		2E3F7D8B18857C4E008A92DD /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3F7D8718857C4E008A92DD /* SDL2_ttf.framework */; };
@@ -77,50 +61,18 @@
 			dstPath = assets;
 			dstSubfolderSpec = 7;
 			files = (
-				2E3F7D36188566B4008A92DD /* beep.wav in CopyFiles */,
-				2E3F7D37188566B4008A92DD /* hero.ogg in CopyFiles */,
-				2E3F7D38188566B4008A92DD /* longbeep.wav in CopyFiles */,
-				2E3F7D39188566B4008A92DD /* lose.wav in CopyFiles */,
-				2E3F7D3A188566B4008A92DD /* menu button.png in CopyFiles */,
-				2E3F7D3B188566B4008A92DD /* play button.png in CopyFiles */,
-				2E3F7D3C188566B4008A92DD /* play.png in CopyFiles */,
-				2E3F7D3D188566B4008A92DD /* quit button.png in CopyFiles */,
-				2E3F7D3E188566B4008A92DD /* replay button.png in CopyFiles */,
-				2E3F7D3F188566B4008A92DD /* replay.png in CopyFiles */,
-				2E3F7D40188566B4008A92DD /* score anim.png in CopyFiles */,
-				2E3F7D41188566B4008A92DD /* shadow.wav in CopyFiles */,
-				2E3F7D42188566B4008A92DD /* snake.icns in CopyFiles */,
-				2E3F7D43188566B4008A92DD /* squares.png in CopyFiles */,
-				2E3F7D44188566B4008A92DD /* title anim.png in CopyFiles */,
-				2E3F7D45188566B4008A92DD /* title.png in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E335A341887A1A700E33368 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		2E3F7C8418845651008A92DD /* SoundManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SoundManager.cpp; sourceTree = "<group>"; };
 		2E3F7C8518845651008A92DD /* SoundManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		2E3F7C88188524D2008A92DD /* Text.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Text.cpp; sourceTree = "<group>"; };
 		2E3F7C89188524D2008A92DD /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
-		2E3F7C8C188531C8008A92DD /* snake.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = snake.icns; sourceTree = "<group>"; };
-		2E3F7C8F18853538008A92DD /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
-		2E3F7C9018853538008A92DD /* hero.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = hero.ogg; sourceTree = "<group>"; };
-		2E3F7C9118853538008A92DD /* longbeep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = longbeep.wav; sourceTree = "<group>"; };
-		2E3F7C9218853538008A92DD /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
-		2E3F7C9318853538008A92DD /* menu button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu button.png"; sourceTree = "<group>"; };
-		2E3F7C9418853538008A92DD /* play button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play button.png"; sourceTree = "<group>"; };
-		2E3F7C9518853538008A92DD /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		2E3F7C9618853538008A92DD /* quit button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quit button.png"; sourceTree = "<group>"; };
-		2E3F7C9718853538008A92DD /* replay button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "replay button.png"; sourceTree = "<group>"; };
-		2E3F7C9818853538008A92DD /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replay.png; sourceTree = "<group>"; };
-		2E3F7C9918853538008A92DD /* score anim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "score anim.png"; sourceTree = "<group>"; };
-		2E3F7C9A18853538008A92DD /* shadow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shadow.wav; sourceTree = "<group>"; };
-		2E3F7C9B18853538008A92DD /* snake.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = snake.icns; sourceTree = "<group>"; };
-		2E3F7C9C18853538008A92DD /* squares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares.png; sourceTree = "<group>"; };
-		2E3F7C9D18853538008A92DD /* title anim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title anim.png"; sourceTree = "<group>"; };
-		2E3F7C9E18853538008A92DD /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
-		2E3F7C9F18853538008A92DD /* FreeMonoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FreeMonoBold.ttf; path = "Shadow Snake 2/FreeMonoBold.ttf"; sourceTree = "<group>"; };
+		2E3F7C9F18853538008A92DD /* FreeMonoBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreeMonoBold.ttf; sourceTree = "<group>"; };
 		2E3F7D8518857C4E008A92DD /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
 		2E3F7D8618857C4E008A92DD /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_mixer.framework; sourceTree = "<group>"; };
 		2E3F7D8718857C4E008A92DD /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_ttf.framework; sourceTree = "<group>"; };
@@ -207,30 +159,6 @@
 				2E3F7C89188524D2008A92DD /* Text.h */,
 			);
 			name = Text;
-			sourceTree = "<group>";
-		};
-		2E3F7C8E18853537008A92DD /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				2E3F7C8F18853538008A92DD /* beep.wav */,
-				2E3F7C9018853538008A92DD /* hero.ogg */,
-				2E3F7C9118853538008A92DD /* longbeep.wav */,
-				2E3F7C9218853538008A92DD /* lose.wav */,
-				2E3F7C9318853538008A92DD /* menu button.png */,
-				2E3F7C9418853538008A92DD /* play button.png */,
-				2E3F7C9518853538008A92DD /* play.png */,
-				2E3F7C9618853538008A92DD /* quit button.png */,
-				2E3F7C9718853538008A92DD /* replay button.png */,
-				2E3F7C9818853538008A92DD /* replay.png */,
-				2E3F7C9918853538008A92DD /* score anim.png */,
-				2E3F7C9A18853538008A92DD /* shadow.wav */,
-				2E3F7C9B18853538008A92DD /* snake.icns */,
-				2E3F7C9C18853538008A92DD /* squares.png */,
-				2E3F7C9D18853538008A92DD /* title anim.png */,
-				2E3F7C9E18853538008A92DD /* title.png */,
-			);
-			name = assets;
-			path = "Shadow Snake 2/assets";
 			sourceTree = "<group>";
 		};
 		2E6C031C1882D542000885E7 /* Food */ = {
@@ -374,9 +302,6 @@
 		2E8326A018829DAF00DEE687 = {
 			isa = PBXGroup;
 			children = (
-				2E3F7C8E18853537008A92DD /* assets */,
-				2E3F7C9F18853538008A92DD /* FreeMonoBold.ttf */,
-				2E3F7C8C188531C8008A92DD /* snake.icns */,
 				2E8326B218829DAF00DEE687 /* Shadow Snake 2 */,
 				2E8326AB18829DAF00DEE687 /* Frameworks */,
 				2E8326AA18829DAF00DEE687 /* Products */,
@@ -429,6 +354,8 @@
 				2E8326E01882B14400DEE687 /* Params.h */,
 				2E8326D018829F5300DEE687 /* Vector2D.h */,
 				2E8326B318829DAF00DEE687 /* Supporting Files */,
+				2E3F7C9F18853538008A92DD /* FreeMonoBold.ttf */,
+				2E335A341887A1A700E33368 /* assets */,
 			);
 			path = "Shadow Snake 2";
 			sourceTree = "<group>";
@@ -552,7 +479,7 @@
 				2E3F7CB018853635008A92DD /* FreeMonoBold.ttf in Resources */,
 				2E8326B718829DAF00DEE687 /* InfoPlist.strings in Resources */,
 				2E8326BD18829DAF00DEE687 /* Credits.rtf in Resources */,
-				2E3F7C8D188531C9008A92DD /* snake.icns in Resources */,
+				2E335A351887A1A700E33368 /* assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
